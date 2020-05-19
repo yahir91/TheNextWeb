@@ -1,0 +1,86 @@
+.top-nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: #131313;
+  height: 32px;
+  align-items: center;
+}
+
+.top-nav a {
+  text-decoration: none;
+  color: hsla(0, 0%, 100%, 0.6);
+  margin: 0 10px;
+  font-size: 14px;
+}
+
+.bottom-nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: #fefefe;
+  height: 50px;
+  align-items: center;
+}
+
+.bottom-nav a {
+  text-decoration: none;
+  color: #aaa;
+  font-family: sans-serif;
+  font-size: 14px;
+  margin: 0 10px;
+}
+
+.bottom-nav img {
+  border-left: 1px solid;
+  border-color: #ebebeb;
+  padding: 13px;
+}
+
+header p {
+  background-color: #ffdd33;
+  margin-top: 0;
+  padding: 9px;
+  height: 18px;
+}
+
+header p img {
+  width: 10px;
+}
+
+.principal-container {
+  display: grid;
+  grid-template-columns: 6fr 3fr;
+  grid-auto-rows: minmax(100px auto);
+  grid-template-areas:
+    "one two"
+    "one three";
+}
+
+.one {
+  grid-area: one;
+  background-image: url("../images/sadblockchain.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 500px;
+  color: white;
+  display:flex;
+  flex-direction: column;
+}
+
+.one img {
+  width: 400px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.one span {
+
+}
+
+.two {
+  grid-area: two;
+}
+
+.three {
+  grid-area: three;
+}

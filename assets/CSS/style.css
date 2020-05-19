@@ -178,28 +178,37 @@ h2 {
   align-self: flex-start;
 }
 
+
+/*FUNDING CONTAINER SECTION*/
+
 .funding-container {
   display: flex;
   max-width: 1152px;
-  margin: 0 auto;
+  margin: auto;
   align-items: center;
+  justify-content: flex-start;
 }
+
 
 .funding-container article {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  width: 260px;
-  margin: auto;
-  height: 300px;
-  align-items: center;
+  background-color: chocolate;
+  margin: 1px;
+  width: 250px;
+  height: 270px;
+ 
 }
 
-.top-funding1 {
-  background-color: #ea452f;
-  height: 40px;
-  width: 250px;
-  margin: 0;
+.top-funding{
+  background-color: #ff4422;
+  height: 40;
+}
+
+
+.top-funding1 h3{
+ margin: 0;
+ padding: 0;
 }
 
 .top-funding2 {
@@ -211,3 +220,5 @@ h2 {
   width: 100%;
  
 }
+
+

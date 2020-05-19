@@ -9,6 +9,7 @@
   max-width: 370px;
   max-height: 669px;
   margin: 5px;
+  overflow: hidden;
 }
 
 .creative-section {
@@ -44,7 +45,7 @@ h4 {
 
 .latest-article div {
   background-image: url("../images/Sprint_image.jpg");
-  background-size: 80px 100px;
+  background-size: 100px 100px;
   background-repeat: no-repeat;
   background-position: right center;
   color: #ff4422;
@@ -60,16 +61,19 @@ h4 {
 }
 
 ul {
+  margin-left: -5px;
   list-style: none;
 }
 
 ul li {
- 
+  margin-left: 0;
   border-bottom: 1px solid #eeeeee;
+  padding: 10px 0;
 }
 ul li::before {
   content: "\2022";
   color: red;
   display: inline;
-  margin-left: -2.2em;
+  margin-left: -20px;
+  padding-right: 10px;
 }

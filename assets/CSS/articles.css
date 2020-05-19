@@ -1,52 +1,75 @@
-/* articles section*/
 .article-section {
   max-width: 1152px;
-  margin: auto;
+  margin: 0 auto;
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
 }
 .article-section article {
-  max-width: 352px;
+  max-width: 370px;
   max-height: 669px;
-  margin: 1px;
+  margin: 5px;
 }
 
-.creative-section{
+.creative-section {
   background-image: url("../images/Sprint_image.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  height: 200px;
+  height: 270px;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
   padding: 10px;
+  color: white;
 }
 
-.latest-article div{
-     background-image: url("../images/Sprint_image.jpg");
-    background-size: 80px 100px;
-    background-repeat: no-repeat;
-    background-position: right center;
-    color: #FF4422;
+h4 {
+  margin: 0;
+  font-size: 13px;
+  font-family: "Arvo", serif;
+  font-weight: 200;
+  padding-left: 10px;
+  padding-top: 10px;
 }
+
+.creative-section p {
+  font-weight: 600;
+  font-family: "Roboto", sans-serif;
+}
+
+.creative-section span {
+  font-size: 12px;
+}
+
+.latest-article div {
+  background-image: url("../images/Sprint_image.jpg");
+  background-size: 80px 100px;
+  background-repeat: no-repeat;
+  background-position: right center;
+  color: #ff4422;
+  background-color: #fcf1f0;
+  height: 100px;
+}
+
 .latest-article p {
-    width: 80%;
-    margin: 10px;
-}
-ul{
-    list-style: none;
+  width: 60%;
+  margin: 10px;
+  font-weight: bold;
+  font-size: 15px;
 }
 
-ul li{
-    padding: 10px;
-    border-bottom: 1px solid #eeeeee;
+ul {
+  list-style: none;
+}
+
+ul li {
+ 
+  border-bottom: 1px solid #eeeeee;
 }
 ul li::before {
   content: "\2022";
   color: red;
-  display: inline-block; 
-  width: 1em;
-  margin-left: -1em;
+  display: inline;
+  margin-left: -2.2em;
 }
-

@@ -53,6 +53,8 @@ header p img {
   grid-template-areas:
     "one two"
     "one three";
+    gap:10px;
+  margin: 0px 10px;
 }
 
 .one {
@@ -61,26 +63,86 @@ header p img {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  height: 500px;
+  height: 65vh;
   color: white;
   display:flex;
   flex-direction: column;
+  justify-content: space-between;
 }
 
 .one img {
   width: 400px;
-  margin-top: 20px;
   margin-left: 20px;
 }
-
-.one span {
-
+.logo-and-date{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+  margin-right: 20px;
 }
 
+.one p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 55px;
+  font-weight: 900;
+  margin: 15px;
+}
+.one a {
+  margin: 15px;
+  text-decoration: none;
+  color: #FFFFFF;
+}
 .two {
   grid-area: two;
+  background-image: url("../images/Sprint_image.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  display: flex;
+  align-items: flex-end;
 }
 
 .three {
   grid-area: three;
+  background-image: url("../images/coronavirus.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  display: flex;
+  align-items: flex-end;
 }
+
+.two p, .three p{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+  font-size: 25px;
+  padding-bottom: 10px;
+  margin: 10px;
+  color: #ebebeb;
+}
+
+/*LASTEST NEWS*/
+h2 {
+  color: #FF4422;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+}
+
+.latest-news{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  max-width: 1152px;
+  margin: auto;
+}
+
+.latest-news article {
+  max-width: 288px; 
+  margin: auto;
+}
+
+.latest-news img{
+  max-width: 260px;
+}
+
+

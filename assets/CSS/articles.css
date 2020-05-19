@@ -1,0 +1,52 @@
+/* articles section*/
+.article-section {
+  max-width: 1152px;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+}
+.article-section article {
+  max-width: 352px;
+  max-height: 669px;
+  margin: 1px;
+}
+
+.creative-section{
+  background-image: url("../images/Sprint_image.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 10px;
+}
+
+.latest-article div{
+     background-image: url("../images/Sprint_image.jpg");
+    background-size: 80px 100px;
+    background-repeat: no-repeat;
+    background-position: right center;
+    color: #FF4422;
+}
+.latest-article p {
+    width: 80%;
+    margin: 10px;
+}
+ul{
+    list-style: none;
+}
+
+ul li{
+    padding: 10px;
+    border-bottom: 1px solid #eeeeee;
+}
+ul li::before {
+  content: "\2022";
+  color: red;
+  display: inline-block; 
+  width: 1em;
+  margin-left: -1em;
+}
+

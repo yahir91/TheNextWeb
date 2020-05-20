@@ -1,29 +1,3 @@
-.article-section {
-  max-width: 1152px;
-  margin: 0 auto;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-}
-.article-section article {
-  max-width: 370px;
-  max-height: 669px;
-  margin: 5px;
-  overflow: hidden;
-}
-
-.creative-section {
-  background-image: url("../images/Sprint_image.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
-  height: 270px;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  padding: 10px;
-  color: white;
-}
 
 h4 {
   margin: 0;
@@ -33,33 +7,6 @@ h4 {
   padding-left: 10px;
   padding-top: 10px;
 }
-
-.creative-section p {
-  font-weight: 600;
-  font-family: "Roboto", sans-serif;
-}
-
-.creative-section span {
-  font-size: 12px;
-}
-
-.latest-article div {
-  background-image: url("../images/Sprint_image.jpg");
-  background-size: 100px 100px;
-  background-repeat: no-repeat;
-  background-position: right center;
-  color: #ff4422;
-  background-color: #fcf1f0;
-  height: 100px;
-}
-
-.latest-article p {
-  width: 60%;
-  margin: 10px;
-  font-weight: bold;
-  font-size: 15px;
-}
-
 ul {
   margin-left: -5px;
   list-style: none;
@@ -77,3 +24,219 @@ ul li::before {
   margin-left: -20px;
   padding-right: 10px;
 }
+
+.article-section {
+  max-width: 1152px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.article-section article {
+  max-width: 370px;
+  max-height: 669px;
+  margin: 5px;
+  overflow: hidden;
+}
+
+.article{
+    display: flex;
+    flex-direction: row;
+}
+
+.article div{
+    width: 75%;
+}
+.apps-section{
+  background-image: url("../images/family.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 270px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 10px;
+  color: white;
+}
+
+.netflix-link{
+  background-image: url("../images/Netflix-Featured_1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 100px;
+  height: 100px;
+}
+
+
+.paragraph-red {
+  font-weight: 600;
+  font-family: TheNextWeb;
+}
+
+span {
+  font-size: 12px;
+}
+
+
+.gear-section{
+    background-image: url("../images/appleglass.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 270px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 10px;
+  color: white; 
+}
+.google-link{
+  background-image: url("../images/googletalk.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 100px;
+  height: 100px;
+}
+
+.tech-section{
+    background-image: url("../images/elon_vader-368x276.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 270px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 10px;
+  color: white; 
+}
+
+.computer-link{
+  background-image: url("../images/computereye.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 100px;
+  height: 100px;
+}
+.creative-section {
+  background-image: url("../images/emoguy.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 270px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 10px;
+  color: white;
+}
+
+.number98-link{
+  background-image: url("../images/article-image1.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 100px;
+  height: 100px;
+}
+
+.podium-section {
+  background-image: url("../images/meme.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 270px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 10px;
+  color: white;
+}
+.greta-link{
+  background-image: url("../images/greta.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 100px;
+  height: 100px;
+}
+
+.insight-section {
+  background-image: url("../images/productivityimage.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 270px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 10px;
+  color: white;
+}
+.sadboy-link{
+  background-image: url("../images/boy.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 100px;
+  height: 100px;
+}
+.launch-section {
+  background-image: url("../images/phones.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 270px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 10px;
+  color: white;
+}
+
+.JioMart-link{
+  background-image: url("../images/JioMart.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 100px;
+  height: 100px;
+}
+
+.distract-section{
+  background-image: url("../images/community.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 270px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 10px;
+  color: white;
+}
+
+.twitch-link{
+  background-image: url("../images/twitch-e1491600114230.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 100px;
+  height: 100px;
+}
+
+@media only screen and (max-width: 800px) {
+   .article-section{
+       width: 100%; 
+   } 
+   .article-section article {
+        max-width: 90%;
+        margin: auto;
+    }
+}
+
+

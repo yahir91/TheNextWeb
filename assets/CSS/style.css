@@ -1,3 +1,7 @@
+@font-face{
+    font-family: TheNextWeb;
+    src: url(../styles/OPTIChampionBold.otf);
+}
 *,
 *::after,
 *::before {
@@ -90,9 +94,8 @@ header p img {
 }
 
 .one p {
-  font-family: "Roboto", sans-serif;
-  font-size: 55px;
-  font-weight: 900;
+  font-family: TheNextWeb;
+  font-size: 50px;
   margin: 15px;
 }
 .one a {
@@ -122,9 +125,9 @@ header p img {
 
 .two p,
 .three p {
-  font-family: "Roboto", sans-serif;
+  font-family: TheNextWeb;
   font-weight: 900;
-  font-size: 25px;
+  font-size: 22px;
   padding-bottom: 10px;
   margin: 10px;
   color: #ebebeb;
@@ -133,7 +136,7 @@ header p img {
 /*LASTEST NEWS*/
 h2 {
   color: #ff4422;
-  font-family: "Roboto", sans-serif;
+  font-family: TheNextWeb;
   font-weight: 900;
   max-width: 1152px;
   margin: 0 auto 20px;

@@ -149,7 +149,7 @@ header p img {
 h2 {
   max-width: 1152px;
   margin: 0 auto 20px;
-  padding-left: 20px;
+  padding-left: 20px; 
 }
 
 .latest-news {
@@ -198,39 +198,96 @@ h2 {
   max-width: 1152px;
   margin: auto;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: space-between;
 }
 
 
 .funding-container article {
   display: flex;
   flex-direction: column;
-  background-color: chocolate;
-  margin: 1px;
-  width: 250px;
-  height: 270px;
+  max-width: 250px;
+  max-height: 270px;
  
 }
 
-.top-funding{
-  background-color: #ff4422;
-  height: 40;
+h3
+{
+  color: #ebebeb;
+  font-family: TheNextWeb;
 }
-
-
-.top-funding1 h3{
- margin: 0;
- padding: 0;
+.top-funding1{
+  background-color: #ff4422;
+  height: 40px;
+  padding-left: 80px;
+  display: flex;
+  align-items: center;
 }
 
 .top-funding2 {
+  height: 60px;
   background-color: #fbe7e5;
-  margin: 0;
+  padding-left: 80px;
 }
 
+.price{
+  padding-top: 10px;
+  font-family: TheNextWeb;
+  font-size:15px;
+}
+
+.funding-container{
+  font-family:PublicSans ;
+}
 .middle-funding {
   width: 100%;
- 
+  border-bottom: 1px solid rgba(255,68,34,.25);
+  font-size: small;
+  background-color: #fffaf8;
+  display: flex;
+  height: 90px;
+  padding: 10px 0;
+  flex-direction: column;
+  justify-content: space-evenly;
 }
+
+.middle-funding img {
+  width: 15px;
+  position: relative;
+  top:2px;
+  margin: 0 10px;
+}
+
+.bottom-funding{
+  font-size: small;
+  background-color: #fffaf8;
+  color: #555555;
+  padding: 10px;
+}
+
+.funding-img{
+  position: absolute;
+  width: 60px;
+  margin: 10px;
+}
+
+.funding-title{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1152px;
+  margin: 20px auto;
+}
+
+.funding-title-red{
+  color: #ff4422;
+  font-family: TheNextWeb;
+  font-weight: 900;
+  font-size: 20px;
+}
+.funding-links{
+  color: #ff4422;
+  font-family: PublicSans;
+}
+
 
 

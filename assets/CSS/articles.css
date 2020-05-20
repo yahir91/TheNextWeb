@@ -1,11 +1,18 @@
 
 h4 {
-  margin: 0;
   font-size: 13px;
   font-family: "Arvo", serif;
   font-weight: 200;
-  padding-left: 10px;
   padding-top: 10px;
+  margin: 0;
+}
+h2 a{
+    color: #ff4422;
+  font-family: TheNextWeb;
+  font-weight: 900;
+}
+h2 a:hover{
+    color: black;
 }
 ul {
   margin-left: -5px;
@@ -25,28 +32,53 @@ ul li::before {
   padding-right: 10px;
 }
 
+li a {
+    text-decoration: none;
+    color: #aaa;
+}
+
+li a:hover{
+    color: #555;
+}
+.article-section img {
+    display: inline-block;
+    width: 13px;
+}
+
 .article-section {
-  max-width: 1152px;
+  max-width: 1190px;
   margin: 0 auto;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: start;
+  font-family: PublicSans;
+  font-size: 13px;
+  line-height: 20px;
 }
 .article-section article {
   max-width: 370px;
-  max-height: 669px;
-  margin: 5px;
+  margin: 10px;
   overflow: hidden;
 }
 
-.article{
+.red-article {
+    min-height: 10px;
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    color: red;
+    font-family: TheNextWeb;
+    font-size: small;
+    background-color: #fff4f2;
+    padding-left: 10px;
 }
 
-.article div{
+.red-article div{
     width: 75%;
 }
+
 .apps-section{
   background-image: url("../images/family.jpg");
   background-size: cover;
@@ -56,7 +88,8 @@ ul li::before {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  padding: 10px;
+  align-items: flex-end;
+  padding-left: 10px;
   color: white;
 }
 
@@ -65,14 +98,15 @@ ul li::before {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  width: 100px;
-  height: 100px;
+  min-width: 100px;
+  min-height: 100px;
 }
 
 
-.paragraph-red {
+.article-title {
   font-weight: 600;
   font-family: TheNextWeb;
+  margin: 0;
 }
 
 span {
@@ -80,8 +114,8 @@ span {
 }
 
 
-.gear-section{
-    background-image: url("../images/appleglass.png");
+.gear-section{   
+  background-image: url("../images/appleglass.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -97,8 +131,8 @@ span {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  width: 100px;
-  height: 100px;
+  min-width: 100px;
+  min-height: 100px;
 }
 
 .tech-section{
@@ -119,8 +153,8 @@ span {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  width: 100px;
-  height: 100px;
+  min-width: 100px;
+  min-height: 100px;
 }
 .creative-section {
   background-image: url("../images/emoguy.png");
@@ -140,8 +174,8 @@ span {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  width: 100px;
-  height: 100px;
+  min-width: 100px;
+  min-height: 100px;
 }
 
 .podium-section {
@@ -161,8 +195,8 @@ span {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  width: 100px;
-  height: 100px;
+  min-width: 100px;
+  min-height: 100px;
 }
 
 .insight-section {
@@ -182,8 +216,8 @@ span {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  width: 100px;
-  height: 100px;
+  min-width: 100px;
+  min-height: 100px;
 }
 .launch-section {
   background-image: url("../images/phones.jpg");
@@ -203,8 +237,8 @@ span {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  width: 100px;
-  height: 100px;
+  min-width: 100px;
+  min-height: 100px;
 }
 
 .distract-section{
@@ -225,8 +259,8 @@ span {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  width: 100px;
-  height: 100px;
+  min-width: 100px;
+  min-height: 100px;
 }
 
 @media only screen and (max-width: 800px) {
@@ -234,8 +268,19 @@ span {
        width: 100%; 
    } 
    .article-section article {
-        max-width: 90%;
+        min-width: 90%;
         margin: auto;
+    }
+}
+
+@media (max-width: 1200px) and (min-width: 800px){
+   .article-section{
+       margin: auto;
+       justify-content: center;
+   } 
+   .article-section article {
+        max-width: 40%;
+        margin: 10px;
     }
 }
 

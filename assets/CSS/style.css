@@ -2,6 +2,12 @@
     font-family: TheNextWeb;
     src: url(../styles/OPTIChampionBold.otf);
 }
+
+@font-face{
+    font-family: PublicSans;
+    src: url(../styles/PublicSans[wght].ttf);
+}
+
 *,
 *::after,
 *::before {
@@ -9,7 +15,9 @@
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
-
+a{
+  text-decoration: none;
+}
 .top-nav {
   display: flex;
   justify-content: space-between;
@@ -19,7 +27,6 @@
 }
 
 .top-nav a {
-  text-decoration: none;
   color: hsla(0, 0%, 100%, 0.6);
   margin: 0 10px;
   font-size: 14px;
@@ -47,6 +54,11 @@
   padding: 13px;
 }
 
+header{
+  position: sticky;
+  top: 0px;
+  width: 100%;
+}
 header p {
   background-color: #ffdd33;
   margin: 0;
@@ -135,9 +147,6 @@ header p img {
 
 /*LASTEST NEWS*/
 h2 {
-  color: #ff4422;
-  font-family: TheNextWeb;
-  font-weight: 900;
   max-width: 1152px;
   margin: 0 auto 20px;
   padding-left: 20px;

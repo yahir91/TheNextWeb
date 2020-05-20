@@ -1,11 +1,11 @@
-@font-face{
-    font-family: TheNextWeb;
-    src: url(../styles/OPTIChampionBold.otf);
+@font-face {
+  font-family: TheNextWeb;
+  src: url(../styles/OPTIChampionBold.otf);
 }
 
-@font-face{
-    font-family: PublicSans;
-    src: url(../styles/PublicSans[wght].ttf);
+@font-face {
+  font-family: PublicSans;
+  src: url(../styles/PublicSans[wght].ttf);
 }
 
 *,
@@ -15,9 +15,14 @@
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
-a{
+a {
   text-decoration: none;
 }
+
+.tnw-logo {
+  display: none;
+}
+
 .top-nav {
   display: flex;
   justify-content: space-between;
@@ -54,7 +59,7 @@ a{
   padding: 13px;
 }
 
-header{
+header {
   position: sticky;
   top: 0px;
   width: 100%;
@@ -149,7 +154,7 @@ header p img {
 h2 {
   max-width: 1152px;
   margin: 0 auto 20px;
-  padding-left: 20px; 
+  padding-left: 20px;
 }
 
 .latest-news {
@@ -190,7 +195,6 @@ h2 {
   align-self: flex-start;
 }
 
-
 /*FUNDING CONTAINER SECTION*/
 
 .funding-container {
@@ -201,21 +205,18 @@ h2 {
   justify-content: space-between;
 }
 
-
 .funding-container article {
   display: flex;
   flex-direction: column;
   max-width: 250px;
   max-height: 270px;
- 
 }
 
-h3
-{
+h3 {
   color: #ebebeb;
   font-family: TheNextWeb;
 }
-.top-funding1{
+.top-funding1 {
   background-color: #ff4422;
   height: 40px;
   padding-left: 80px;
@@ -229,18 +230,18 @@ h3
   padding-left: 80px;
 }
 
-.price{
+.price {
   padding-top: 10px;
   font-family: TheNextWeb;
-  font-size:15px;
+  font-size: 15px;
 }
 
-.funding-container{
-  font-family:PublicSans ;
+.funding-container {
+  font-family: PublicSans;
 }
 .middle-funding {
   width: 100%;
-  border-bottom: 1px solid rgba(255,68,34,.25);
+  border-bottom: 1px solid rgba(255, 68, 34, 0.25);
   font-size: small;
   background-color: #fffaf8;
   display: flex;
@@ -253,24 +254,24 @@ h3
 .middle-funding img {
   width: 15px;
   position: relative;
-  top:2px;
+  top: 2px;
   margin: 0 10px;
 }
 
-.bottom-funding{
+.bottom-funding {
   font-size: small;
   background-color: #fffaf8;
   color: #555555;
   padding: 10px;
 }
 
-.funding-img{
+.funding-img {
   position: absolute;
   width: 60px;
   margin: 10px;
 }
 
-.funding-title{
+.funding-title {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -278,16 +279,13 @@ h3
   margin: 20px auto;
 }
 
-.funding-title-red{
+.funding-title-red {
   color: #ff4422;
   font-family: TheNextWeb;
   font-weight: 900;
   font-size: 20px;
 }
-.funding-links{
+.funding-links {
   color: #ff4422;
   font-family: PublicSans;
 }
-
-
-

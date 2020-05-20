@@ -1,0 +1,69 @@
+.latest-deals {
+  display: flex;
+  max-width: 1152px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+.latest-deals div {
+  display: flex;
+  flex-direction: column;
+  max-width: 288px;
+  margin: 0 auto;
+  height: 300px;
+  align-items: center;
+}
+
+.latest-deals img {
+  width: 260px;
+  height: 200px;
+}
+
+.latest-deals p {
+  font-size: 16px;
+  font-family: "Arvo", serif;
+  font-weight: 600;
+
+  margin-left: 14px;
+}
+
+.latest-deals span {
+  line-height: 15px;
+  color: #aaa;
+  font-size: 13px;
+  align-self: flex-start;
+}
+
+.top-footer {
+  background-color: #131313;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.bottom-footer {
+  background-color: #000;
+}
+
+.topfooter-top a {
+  display: inline-block;
+  border-radius: 500px;
+  width: 30px;
+  height: 30px;
+  background-color: gray;
+  margin: 0 5px 0 5px;
+}
+
+.topfooter-bottom a {
+  text-decoration: none;
+  color: #aaa;
+  font-size: 13px;
+  font-family: PublicSans;
+  margin: 0 5px 0 5px;
+}
+
+.topfooter-bottom a:hover {
+  color: #fff;
+}

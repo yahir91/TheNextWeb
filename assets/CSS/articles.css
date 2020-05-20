@@ -262,26 +262,3 @@ span {
   min-width: 100px;
   min-height: 100px;
 }
-
-@media only screen and (max-width: 800px) {
-   .article-section{
-       width: 100%; 
-   } 
-   .article-section article {
-        min-width: 90%;
-        margin: auto;
-    }
-}
-
-@media (max-width: 1200px) and (min-width: 800px){
-   .article-section{
-       margin: auto;
-       justify-content: center;
-   } 
-   .article-section article {
-        max-width: 40%;
-        margin: 10px;
-    }
-}
-
-

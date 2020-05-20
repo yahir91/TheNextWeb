@@ -1,0 +1,46 @@
+@media only screen and (max-width: 800px) {
+  .article-section {
+    width: 100%;
+  }
+  .article-section article {
+    min-width: 90%;
+    margin: auto;
+  }
+}
+
+@media (max-width: 1200px) and (min-width: 800px) {
+  .nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .tnw-logo {
+    background-color: red;
+    display: block !important;
+    width: 100px;
+  }
+
+  .tnw-logo img {
+    width: 70px;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .nav-container {
+    flex-grow: 10 !important;
+  }
+
+  .neural {
+    display: none;
+  }
+  .article-section {
+    margin: auto;
+    justify-content: center;
+  }
+  .article-section article {
+    max-width: 40%;
+    margin: 10px;
+  }
+}

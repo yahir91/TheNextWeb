@@ -1,20 +1,28 @@
 h4 {
   font-size: 13px;
-  font-family: "Arvo", serif;
+  font-family: TheNextWeb, "Arvo", serif;
   font-weight: 200;
   padding-top: 10px;
   margin: 0;
 }
+
 h2 a {
-  color: #ff4422;
-  font-family: TheNextWeb;
+  color: #f42;
+  font-family: TheNextWeb, Georgia, Times, 'Times New Roman', serif;
   font-weight: 900;
   font-size: 22px;
   margin-left: 0;
 }
+
+li a {
+  text-decoration: none;
+  color: #aaa;
+}
+
 h2 a:hover {
   color: black;
 }
+
 ul {
   margin-left: -5px;
   list-style: none;
@@ -22,7 +30,7 @@ ul {
 
 ul li {
   margin-left: 30px;
-  border-bottom: 1px solid #eeeeee;
+  border-bottom: 1px solid #eee;
   padding: 10px 0;
 }
 
@@ -34,14 +42,10 @@ ul li::before {
   padding-right: 10px;
 }
 
-li a {
-  text-decoration: none;
-  color: #aaa;
-}
-
 li a:hover {
   color: #555;
 }
+
 .article-section img {
   display: inline-block;
   width: 13px;
@@ -55,10 +59,11 @@ li a:hover {
   flex-wrap: wrap;
   align-items: flex-start;
   justify-content: start;
-  font-family: PublicSans;
+  font-family: PublicSans, Georgia, Times, 'Times New Roman', serif;
   font-size: 13px;
   line-height: 20px;
 }
+
 .article-section article {
   max-width: 370px;
   margin: 10px;
@@ -71,7 +76,7 @@ li a:hover {
   flex-direction: row;
   justify-content: space-between;
   color: red;
-  font-family: TheNextWeb;
+  font-family: TheNextWeb, Georgia, Times, 'Times New Roman', serif;
   font-size: small;
   background-color: #fff4f2;
   padding-left: 10px;
@@ -79,6 +84,7 @@ li a:hover {
 
 .red-article div {
   width: 75%;
+  font-weight: bold;
 }
 
 .apps-section {
@@ -106,7 +112,7 @@ li a:hover {
 
 .article-title {
   font-weight: 600;
-  font-family: TheNextWeb;
+  font-family: TheNextWeb, Georgia, Times, 'Times New Roman', serif;
   margin: 0;
 }
 
@@ -126,6 +132,7 @@ span {
   padding: 10px;
   color: white;
 }
+
 .google-link {
   background-image: url("../images/googletalk.png");
   background-size: cover;
@@ -156,6 +163,7 @@ span {
   min-width: 100px;
   min-height: 100px;
 }
+
 .creative-section {
   background-image: url("../images/emoguy.png");
   background-size: cover;
@@ -190,6 +198,7 @@ span {
   padding: 10px;
   color: white;
 }
+
 .greta-link {
   background-image: url("../images/greta.png");
   background-size: cover;
@@ -211,6 +220,7 @@ span {
   padding: 10px;
   color: white;
 }
+
 .sadboy-link {
   background-image: url("../images/boy.jpg");
   background-size: cover;
@@ -219,6 +229,7 @@ span {
   min-width: 100px;
   min-height: 100px;
 }
+
 .launch-section {
   background-image: url("../images/phones.jpg");
   background-size: cover;

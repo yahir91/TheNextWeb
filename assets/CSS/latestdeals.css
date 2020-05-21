@@ -1,7 +1,7 @@
 .latest-deals {
   display: flex;
   max-width: 1152px;
-  margin: 0 auto;
+  margin: 40px auto;
   flex-wrap: wrap;
 }
 
@@ -9,8 +9,7 @@
   display: flex;
   flex-direction: column;
   width: 288px;
-  margin: 0 auto;
-  /*height: 300px;*/
+  margin: 20px auto;
   align-items: center;
 }
 
@@ -21,17 +20,21 @@
 }
 
 .latest-deals p {
-  font-size: 16px;
+  font-size: 1em;
+  line-height: 20px;
   font-family: "Arvo", serif;
   font-weight: 600;
+  padding-right: 20px;
   margin-left: 14px;
 }
 
 .latest-deals span {
   line-height: 15px;
   color: #aaa;
-  font-size: 13px;
+  font-size: 12px;
   align-self: flex-start;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter;
 }
 
 .top-footer {
@@ -48,10 +51,17 @@
   border-radius: 500px;
   width: 35px;
   height: 35px;
-  background-color: gray;
   margin: 0 5px 0 5px;
   background-color: #333;
   border: 2px solid #333;
+}
+
+.topfooter-bottom a {
+  text-decoration: none;
+  color: #aaa;
+  font-size: 13px;
+  font-family: PublicSans, Courier, monospace;
+  margin: 0 5px 0 5px;
 }
 
 .topfooter-top a:hover {
@@ -65,14 +75,6 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-}
-
-.topfooter-bottom a {
-  text-decoration: none;
-  color: #aaa;
-  font-size: 13px;
-  font-family: PublicSans;
-  margin: 0 5px 0 5px;
 }
 
 .topfooter-bottom a:hover {
@@ -89,7 +91,7 @@
 
 .bottom-footer p {
   color: #aaa;
-  font-family: PublicSans;
+  font-family: PublicSans, Courier, monospace;
   font-size: 13px;
 }
 

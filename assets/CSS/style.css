@@ -15,8 +15,17 @@
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
+
 a {
   text-decoration: none;
+}
+
+h5 {
+  display: none;
+}
+
+header p img {
+  width: 10px;
 }
 
 .tnw-logo {
@@ -29,6 +38,7 @@ a {
   background-color: #131313;
   height: 32px;
   align-items: center;
+  font-family: PublicSans, Georgia, Times, 'Times New Roman', serif;
 }
 
 .top-nav a {
@@ -43,12 +53,12 @@ a {
   background-color: #fefefe;
   height: 50px;
   align-items: center;
+  font-family: PublicSans, Georgia, Times, 'Times New Roman', serif;
 }
 
 .bottom-nav a {
   text-decoration: none;
   color: #aaa;
-  font-family: sans-serif;
   font-size: 14px;
   margin: 0 10px;
 }
@@ -62,18 +72,15 @@ a {
 header {
   position: sticky;
   z-index: 2;
-  top: 0px;
+  top: 0;
   width: 100%;
 }
+
 header p {
-  background-color: #ffdd33;
+  background-color: #fd3;
   margin: 0;
   padding: 9px;
   height: 35px;
-}
-
-header p img {
-  width: 10px;
 }
 
 .principal-container {
@@ -106,6 +113,7 @@ header p img {
   width: 400px;
   margin-left: 20px;
 }
+
 .logo-and-date {
   display: flex;
   justify-content: space-between;
@@ -114,15 +122,17 @@ header p img {
 }
 
 .one p {
-  font-family: TheNextWeb;
+  font-family: TheNextWeb, Georgia, Times, 'Times New Roman', serif;
   margin: 15px;
 }
+
 .one a {
   margin: 15px;
   text-decoration: none;
-  color: #ffffff;
+  color: #fff;
   font-size: 0.5em;
 }
+
 .two {
   grid-area: two;
   background-image: url("../images/Sprint_image.jpg");
@@ -145,7 +155,7 @@ header p img {
 
 .two p,
 .three p {
-  font-family: TheNextWeb;
+  font-family: TheNextWeb, 'Times New Roman', Times, serif;
   font-weight: 900;
   font-size: 0.5em;
   padding-bottom: 10px;
@@ -153,7 +163,7 @@ header p img {
   color: #ebebeb;
 }
 
-/*LASTEST NEWS*/
+/* LASTEST NEWS */
 h2 {
   max-width: 1152px;
   margin: 0 auto 20px;
@@ -188,7 +198,7 @@ h2 {
 .latest-news p {
   font-size: 1em;
   line-height: 20px;
-  font-family: "Arvo", serif;
+  font-family: Arvo, serif;
   font-weight: 600;
   padding-right: 20px;
   margin-left: 14px;
@@ -203,7 +213,7 @@ h2 {
   font-weight: lighter;
 }
 
-/*FUNDING CONTAINER SECTION*/
+/* FUNDING CONTAINER SECTION */
 
 .funding-container {
   display: flex;
@@ -211,6 +221,7 @@ h2 {
   margin: 20px auto 60px;
   align-items: center;
   justify-content: space-between;
+  font-family: PublicSans, Georgia, Times, 'Times New Roman', serif;
 }
 
 .funding-container article {
@@ -222,10 +233,11 @@ h2 {
 
 h3 {
   color: #ebebeb;
-  font-family: TheNextWeb;
+  font-family: TheNextWeb, Georgia, Times, 'Times New Roman', serif;
 }
+
 .top-funding1 {
-  background-color: #ff4422;
+  background-color: #f42;
   height: 40px;
   padding-left: 80px;
   display: flex;
@@ -240,13 +252,10 @@ h3 {
 
 .price {
   padding-top: 10px;
-  font-family: TheNextWeb;
+  font-family: TheNextWeb, Georgia, Times, 'Times New Roman', serif;
   font-size: 15px;
 }
 
-.funding-container {
-  font-family: PublicSans;
-}
 .middle-funding {
   width: 100%;
   border-bottom: 1px solid rgba(255, 68, 34, 0.25);
@@ -269,7 +278,7 @@ h3 {
 .bottom-funding {
   font-size: small;
   background-color: #fffaf8;
-  color: #555555;
+  color: #555;
   padding: 10px;
 }
 
@@ -288,12 +297,13 @@ h3 {
 }
 
 .funding-title-red {
-  color: #ff4422;
-  font-family: TheNextWeb;
+  color: #f42;
+  font-family: TheNextWeb, Georgia, Times, 'Times New Roman', serif;
   font-weight: 900;
   font-size: 20px;
 }
+
 .funding-links {
-  color: #ff4422;
-  font-family: PublicSans;
+  color: #f42;
+  font-family: TheNextWeb, Georgia, Times, 'Times New Roman', serif;
 }

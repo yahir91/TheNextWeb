@@ -9,6 +9,7 @@
     flex-direction: row;
     justify-content: center;
   }
+
   .tnw-logo {
     background-color: red;
     display: block;
@@ -30,10 +31,12 @@
   .neural {
     display: none;
   }
+
   .article-section {
     margin: auto;
     justify-content: center;
   }
+
   .article-section article {
     max-width: 40%;
     margin: 10px;
@@ -53,8 +56,8 @@
     font-size: 40px;
   }
 
-  .hidden-article{
-    display: none!important;
+  .hidden-article {
+    display: none !important;
   }
 }
 
@@ -65,6 +68,7 @@
     justify-content: space-between;
     background-color: white;
   }
+
   .tnw-logo {
     background-color: red;
     display: block;
@@ -78,23 +82,29 @@
     top: 50%;
     transform: translate(-50%, -50%);
   }
+
   .article-section {
     width: 100%;
   }
+
   .article-section article {
     min-width: 90%;
     margin: 10px auto 10px;
   }
+
   .bottom-nav div {
     display: none;
   }
+
   .top-nav {
     display: none;
     height: 0;
   }
+
   .options {
     display: inline;
   }
+
   header p {
     height: 50px;
     text-align: center;
@@ -109,19 +119,17 @@
       "three";
     gap: 10px;
     margin: 0 10px 40px 10px;
-    font-size: 50px;
+    font-size: 40px;
   }
+
   .one,
   .two,
   .three {
     height: 250px;
   }
+
   .logo-and-date {
     display: none;
-  }
-
-  .principal-container {
-    font-size: 40px;
   }
 
   .one {
@@ -152,15 +160,15 @@
     object-position: center center;
   }
 
-  .hidden-article{
+  .hidden-article {
     display: none !important;
   }
 
   .funding-container {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
   }
 
   .funding-container article {
@@ -176,9 +184,10 @@
 
   .latest-deals div {
     flex-direction: row;
-    width: 90%;
+    width: 92%;
     height: 90px;
     align-items: initial;
+    margin: 0 auto;
   }
 
   .latest-deals img {
@@ -187,6 +196,4 @@
     object-fit: cover;
     object-position: center center;
   }
-
-
 }

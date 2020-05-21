@@ -85,7 +85,7 @@ video {
   font: inherit;
   vertical-align: baseline;
 }
-​
+
 /* HTML5 display-role reset for older browsers */
 article,
 aside,
@@ -100,25 +100,35 @@ nav,
 section {
   display: block;
 }
-​ body {
+
+body {
   line-height: 1;
 }
-​ ol,
+
+ol,
 ul {
   list-style: none;
 }
-​ blockquote,
+
+blockquote,
 q {
   quotes: none;
 }
-​ blockquote::before,
+
+blockquote::before,
 blockquote::after,
 q::before,
 q::after {
-  content: "";
+  content: '';
   content: none;
 }
-​ table {
+
+table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/

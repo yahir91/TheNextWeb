@@ -1,6 +1,6 @@
-# Design Teardown
+# Responsive Design
 
-> This project consist of building a heatmap of the [The Next Web](https://thenextweb.com/) website.
+> This project consist of building a responsive desgign of the [The Next Web](https://thenextweb.com/) website.
 
 ![screenshot of webpage](assets/images/screenshot.png)
 
@@ -8,6 +8,7 @@
 
 - Align elements with float, grid or flex.
 - Use article tags for all articles listed.
+- Make the web responsive for different viewport. 
 
 ## Built With
 

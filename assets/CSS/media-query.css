@@ -1,4 +1,4 @@
-.options{
+.options {
   width: 50px;
   display: none;
 }
@@ -11,7 +11,7 @@
   }
   .tnw-logo {
     background-color: red;
-    display: block !important;
+    display: block;
     width: 100px;
   }
 
@@ -24,7 +24,7 @@
   }
 
   .nav-container {
-    flex-grow: 10 !important;
+    flex-grow: 10;
   }
 
   .neural {
@@ -38,17 +38,32 @@
     max-width: 40%;
     margin: 10px;
   }
+
+  .logo-and-date {
+    display: none;
+  }
+
+  .one {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+  }
+
+  .principal-container {
+    font-size: 40px;
+  }
 }
 
 @media only screen and (max-width: 800px) {
-    .nav {
+  .nav {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    background-color: white;
   }
   .tnw-logo {
     background-color: red;
-    display: block !important;
+    display: block;
     width: 100px;
   }
 
@@ -66,18 +81,74 @@
     min-width: 90%;
     margin: auto;
   }
-  .bottom-nav div{
+  .bottom-nav div {
     display: none;
   }
-  .top-nav{
-    display: none !important;
+  .top-nav {
+    display: none;
     height: 0;
   }
-  .options{
+  .options {
     display: inline;
   }
-  header p{
-    height: 50px !important;
+  header p {
+    height: 50px;
     text-align: center;
+  }
+
+  .principal-container {
+    grid-template-columns: 1fr;
+    grid-auto-rows: minmax(100px auto);
+    grid-template-areas:
+      "one"
+      "two"
+      "three";
+    gap: 10px;
+    margin: 0 10px 40px 10px;
+    font-size: 50px;
+  }
+  .one,
+  .two,
+  .three {
+    height: 250px;
+  }
+  .logo-and-date {
+    display: none;
+  }
+
+  .principal-container {
+    font-size: 40px;
+  }
+
+  .one {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    font-size: 0.5em;
+  }
+
+  .latest-news {
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+
+  .latest-news article {
+    flex-direction: row;
+    width: 1000px;
+    background-color: red;
+    border: 1px solid;
+    height: 100px;
+    align-items: initial;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .latest-news img {
+    max-width: 60px;
+    background-color: red;
+    height: 50px;
+    object-fit: cover;
+    object-position: center center;
   }
 }

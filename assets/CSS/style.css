@@ -85,6 +85,7 @@ header p img {
     "one three";
   gap: 10px;
   margin: 0 10px 40px 10px;
+  font-size: 50px;
 }
 
 .one {
@@ -93,11 +94,12 @@ header p img {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  height: 65vh;
   color: white;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  font-size: 1em;
+  height: 550px;
 }
 
 .one img {
@@ -113,13 +115,13 @@ header p img {
 
 .one p {
   font-family: TheNextWeb;
-  font-size: 50px;
   margin: 15px;
 }
 .one a {
   margin: 15px;
   text-decoration: none;
   color: #ffffff;
+  font-size: 0.5em;
 }
 .two {
   grid-area: two;
@@ -145,7 +147,7 @@ header p img {
 .three p {
   font-family: TheNextWeb;
   font-weight: 900;
-  font-size: 22px;
+  font-size: 0.5em;
   padding-bottom: 10px;
   margin: 10px;
   color: #ebebeb;
@@ -169,7 +171,7 @@ h2 {
 .latest-news article {
   display: flex;
   flex-direction: column;
-  max-width: 288px;
+  width: 288px;
   margin: 0 auto;
   height: 300px;
   align-items: center;

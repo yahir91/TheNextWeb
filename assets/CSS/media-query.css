@@ -52,6 +52,10 @@
   .principal-container {
     font-size: 40px;
   }
+
+  .hidden-article{
+    display: none!important;
+  }
 }
 
 @media only screen and (max-width: 800px) {
@@ -131,24 +135,35 @@
     flex-direction: column;
     flex-wrap: wrap;
     width: 100%;
+    font-size: 13px;
   }
 
   .latest-news article {
     flex-direction: row;
-    width: 1000px;
-    background-color: red;
-    border: 1px solid;
-    height: 100px;
+    width: 90%;
+    height: 90px;
     align-items: initial;
-    margin-left: 0;
-    margin-right: 0;
   }
 
   .latest-news img {
-    max-width: 60px;
-    background-color: red;
-    height: 50px;
+    width: 80px;
+    height: 80%;
     object-fit: cover;
     object-position: center center;
+  }
+
+  .hidden-article{
+    display: none !important;
+  }
+
+  .funding-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  }
+
+  .funding-container article {
+    width: 98%;
   }
 }

@@ -208,7 +208,7 @@ h2 {
 .funding-container {
   display: flex;
   max-width: 1152px;
-  margin: auto;
+  margin: 20px auto 60px;
   align-items: center;
   justify-content: space-between;
 }

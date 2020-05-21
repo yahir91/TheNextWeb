@@ -83,7 +83,7 @@
   }
   .article-section article {
     min-width: 90%;
-    margin: auto;
+    margin: 10px auto 10px;
   }
   .bottom-nav div {
     display: none;
@@ -166,4 +166,27 @@
   .funding-container article {
     width: 98%;
   }
+
+  .latest-deals {
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+    font-size: 13px;
+  }
+
+  .latest-deals div {
+    flex-direction: row;
+    width: 90%;
+    height: 90px;
+    align-items: initial;
+  }
+
+  .latest-deals img {
+    width: 80px;
+    height: 80%;
+    object-fit: cover;
+    object-position: center center;
+  }
+
+
 }

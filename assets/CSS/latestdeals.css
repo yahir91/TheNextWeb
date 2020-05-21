@@ -8,11 +8,10 @@
 .latest-deals div {
   display: flex;
   flex-direction: column;
-  max-width: 288px;
+  width: 288px;
   margin: 0 auto;
   /*height: 300px;*/
   align-items: center;
-
 }
 
 .latest-deals img {
@@ -52,7 +51,7 @@
   background-color: gray;
   margin: 0 5px 0 5px;
   background-color: #333;
-  text-align: center;
+  border: 2px solid #333;
 }
 
 .topfooter-top a:hover {
@@ -63,9 +62,10 @@
 .topfooter-top img {
   width: 15px;
   position: relative;
-  top: 30%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
-
 
 .topfooter-bottom a {
   text-decoration: none;

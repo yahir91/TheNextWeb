@@ -1,4 +1,3 @@
-
 h4 {
   font-size: 13px;
   font-family: "Arvo", serif;
@@ -6,13 +5,15 @@ h4 {
   padding-top: 10px;
   margin: 0;
 }
-h2 a{
-    color: #ff4422;
+h2 a {
+  color: #ff4422;
   font-family: TheNextWeb;
   font-weight: 900;
+  font-size: 22px;
+  margin-left: 0;
 }
-h2 a:hover{
-    color: black;
+h2 a:hover {
+  color: black;
 }
 ul {
   margin-left: -5px;
@@ -20,10 +21,11 @@ ul {
 }
 
 ul li {
-  margin-left: 0;
+  margin-left: 30px;
   border-bottom: 1px solid #eeeeee;
   padding: 10px 0;
 }
+
 ul li::before {
   content: "\2022";
   color: red;
@@ -33,21 +35,21 @@ ul li::before {
 }
 
 li a {
-    text-decoration: none;
-    color: #aaa;
+  text-decoration: none;
+  color: #aaa;
 }
 
-li a:hover{
-    color: #555;
+li a:hover {
+  color: #555;
 }
 .article-section img {
-    display: inline-block;
-    width: 13px;
+  display: inline-block;
+  width: 13px;
 }
 
 .article-section {
   max-width: 1190px;
-  margin: 0 auto;
+  margin: 0 auto 50px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -64,22 +66,22 @@ li a:hover{
 }
 
 .red-article {
-    min-height: 10px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    color: red;
-    font-family: TheNextWeb;
-    font-size: small;
-    background-color: #fff4f2;
-    padding-left: 10px;
+  min-height: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: red;
+  font-family: TheNextWeb;
+  font-size: small;
+  background-color: #fff4f2;
+  padding-left: 10px;
 }
 
-.red-article div{
-    width: 75%;
+.red-article div {
+  width: 75%;
 }
 
-.apps-section{
+.apps-section {
   background-image: url("../images/family.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -93,7 +95,7 @@ li a:hover{
   color: white;
 }
 
-.netflix-link{
+.netflix-link {
   background-image: url("../images/Netflix-Featured_1.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -101,7 +103,6 @@ li a:hover{
   min-width: 100px;
   min-height: 100px;
 }
-
 
 .article-title {
   font-weight: 600;
@@ -113,8 +114,7 @@ span {
   font-size: 12px;
 }
 
-
-.gear-section{   
+.gear-section {
   background-image: url("../images/appleglass.png");
   background-size: cover;
   background-repeat: no-repeat;
@@ -124,9 +124,9 @@ span {
   flex-direction: column;
   justify-content: flex-end;
   padding: 10px;
-  color: white; 
+  color: white;
 }
-.google-link{
+.google-link {
   background-image: url("../images/googletalk.png");
   background-size: cover;
   background-repeat: no-repeat;
@@ -135,8 +135,8 @@ span {
   min-height: 100px;
 }
 
-.tech-section{
-    background-image: url("../images/elon_vader-368x276.jpg");
+.tech-section {
+  background-image: url("../images/elon_vader-368x276.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -145,10 +145,10 @@ span {
   flex-direction: column;
   justify-content: flex-end;
   padding: 10px;
-  color: white; 
+  color: white;
 }
 
-.computer-link{
+.computer-link {
   background-image: url("../images/computereye.png");
   background-size: cover;
   background-repeat: no-repeat;
@@ -169,7 +169,7 @@ span {
   color: white;
 }
 
-.number98-link{
+.number98-link {
   background-image: url("../images/article-image1.png");
   background-size: cover;
   background-repeat: no-repeat;
@@ -190,7 +190,7 @@ span {
   padding: 10px;
   color: white;
 }
-.greta-link{
+.greta-link {
   background-image: url("../images/greta.png");
   background-size: cover;
   background-repeat: no-repeat;
@@ -211,7 +211,7 @@ span {
   padding: 10px;
   color: white;
 }
-.sadboy-link{
+.sadboy-link {
   background-image: url("../images/boy.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -232,7 +232,7 @@ span {
   color: white;
 }
 
-.JioMart-link{
+.JioMart-link {
   background-image: url("../images/JioMart.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -241,7 +241,7 @@ span {
   min-height: 100px;
 }
 
-.distract-section{
+.distract-section {
   background-image: url("../images/community.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -254,7 +254,7 @@ span {
   color: white;
 }
 
-.twitch-link{
+.twitch-link {
   background-image: url("../images/twitch-e1491600114230.jpg");
   background-size: cover;
   background-repeat: no-repeat;

@@ -61,6 +61,7 @@ a {
 
 header {
   position: sticky;
+  z-index: 2;
   top: 0px;
   width: 100%;
 }
@@ -178,6 +179,8 @@ h2 {
   max-width: 260px;
   background-color: red;
   height: 150px;
+  object-fit: cover;
+  object-position: center center;
 }
 
 .latest-news p {

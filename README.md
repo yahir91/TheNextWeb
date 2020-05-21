@@ -1,6 +1,6 @@
 # Responsive Design
 
-> This project consist of building a responsive desgign of the [The Next Web](https://thenextweb.com/) website.
+> This project consist of building a responsive desgin of the [The Next Web](https://thenextweb.com/) website.
 
 ![screenshot of webpage](assets/images/screenshot.png)
 

@@ -36,10 +36,10 @@
     max-width: 49%;
     margin: auto;
   }
-
+/* 
   .margin {
     margin: auto !important;
-  }
+  } */
 
   .logo-and-date {
     display: none;
@@ -67,6 +67,11 @@
   .latest-deals div,
   .latest-news article {
     width: 32%;
+  }
+
+  .latest-margin {
+    margin-left: 0 !important;
+    margin-right: 20px !important;
   }
 }
 
@@ -102,9 +107,9 @@
     margin: 10px auto;
   }
 
-  .margin {
-    margin: auto !important;
-  }
+  /* .margin {
+    margin: 20px auto !important;
+  } */
 
   .bottom-nav div {
     display: none;

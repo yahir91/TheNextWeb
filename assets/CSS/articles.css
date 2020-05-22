@@ -67,11 +67,11 @@ li a:hover {
   max-width: 32%;
   overflow: hidden;
 }
-
+/* 
 .margin {
   margin-left: 0 !important;
   margin-right: 10px !important;
-}
+} */
 
 .red-article {
   min-height: 10px;

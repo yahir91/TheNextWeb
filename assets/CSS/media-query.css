@@ -37,6 +37,10 @@
     margin: auto;
   }
 
+  .margin {
+    margin: auto !important;
+  }
+
   .logo-and-date {
     display: none;
   }
@@ -96,6 +100,10 @@
   .article-section article {
     max-width: 90%;
     margin: 10px auto;
+  }
+
+  .margin {
+    margin: auto !important;
   }
 
   .bottom-nav div {

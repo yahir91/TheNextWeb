@@ -90,11 +90,12 @@
 
   .article-section {
     width: 100%;
+    flex-direction: column;
   }
 
   .article-section article {
-    width: 90%;
-    margin: 10px auto 10px;
+    max-width: 90%;
+    margin: 10px auto;
   }
 
   .bottom-nav div {

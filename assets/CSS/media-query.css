@@ -1,9 +1,4 @@
-.options {
-  width: 50px;
-  display: none;
-}
-
-@media (max-width: 1200px) and (min-width: 800px) {
+@media (max-width: 1150px) and (min-width: 800px) {
   .nav {
     display: flex;
     flex-direction: row;
@@ -34,12 +29,12 @@
 
   .article-section {
     margin: auto;
-    justify-content: center;
+    padding: 10px;
   }
 
   .article-section article {
-    max-width: 40%;
-    margin: 10px;
+    max-width: 49%;
+    margin: auto;
   }
 
   .logo-and-date {
@@ -58,6 +53,16 @@
 
   .hidden-article {
     display: none !important;
+  }
+
+  .latest-deals,
+  .latest-news {
+    margin: 40px auto;
+  }
+
+  .latest-deals div,
+  .latest-news article {
+    width: 32%;
   }
 }
 
@@ -88,7 +93,7 @@
   }
 
   .article-section article {
-    min-width: 90%;
+    width: 90%;
     margin: 10px auto 10px;
   }
 
@@ -112,7 +117,7 @@
 
   .principal-container {
     grid-template-columns: 1fr;
-    grid-auto-rows: minmax(100px auto);
+    grid-template-rows: minmax(100px, auto);
     grid-template-areas:
       "one"
       "two"
@@ -139,27 +144,6 @@
     font-size: 0.5em;
   }
 
-  .latest-news {
-    flex-direction: column;
-    flex-wrap: wrap;
-    width: 100%;
-    font-size: 13px;
-  }
-
-  .latest-news article {
-    flex-direction: row;
-    width: 90%;
-    height: 90px;
-    align-items: initial;
-  }
-
-  .latest-news img {
-    width: 80px;
-    height: 80%;
-    object-fit: cover;
-    object-position: center center;
-  }
-
   .hidden-article {
     display: none !important;
   }
@@ -175,24 +159,28 @@
     width: 98%;
   }
 
-  .latest-deals {
+  .latest-deals,
+  .latest-news {
     flex-direction: column;
-    flex-wrap: wrap;
     width: 100%;
     font-size: 13px;
+    margin: 40px 0;
   }
 
-  .latest-deals div {
+  .latest-deals div,
+  .latest-news article {
     flex-direction: row;
-    width: 92%;
+    width: 90%;
     height: 90px;
-    align-items: initial;
     margin: 0 auto;
+    padding: 10px;
   }
 
-  .latest-deals img {
+  .latest-deals img,
+  .latest-news img {
     width: 80px;
-    height: 80%;
+    height: 100%;
+    padding-right: 10px;
     object-fit: cover;
     object-position: center center;
   }

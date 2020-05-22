@@ -63,15 +63,15 @@ li a:hover {
 }
 
 .article-section article {
-  margin: 20px auto;
+  margin: auto;
   max-width: 32%;
   overflow: hidden;
 }
-/* 
+
 .margin {
   margin-left: 0 !important;
   margin-right: 10px !important;
-} */
+}
 
 .red-article {
   min-height: 10px;
@@ -94,7 +94,7 @@ li a:hover {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  height: 270px;
+  height: 270px;  
   display: flex;
   flex-direction: column;
   justify-content: flex-end;

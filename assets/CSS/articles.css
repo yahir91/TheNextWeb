@@ -94,7 +94,7 @@ li a:hover {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  height: 270px;  
+  height: 270px;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;

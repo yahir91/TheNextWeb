@@ -186,7 +186,6 @@
   .latest-news article {
     flex-direction: row;
     width: 90%;
-    background-color: orchid;
     height: 90px;
     margin: 0 auto;
     padding: 10px;

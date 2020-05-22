@@ -52,21 +52,20 @@ li a:hover {
 }
 
 .article-section {
-  max-width: 1190px;
-  margin: 0 auto 50px;
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  align-items: flex-start;
-  justify-content: start;
+  max-width: 1152px;
+  width: 95%;
+  margin: auto;
+  flex-flow: row wrap;
   font-family: PublicSans, Georgia, Times, 'Times New Roman', serif;
   font-size: 13px;
   line-height: 20px;
+  flex: 0 1 auto;
 }
 
 .article-section article {
-  max-width: 370px;
-  margin: 10px;
+  margin: 20px auto;
+  max-width: 32%;
   overflow: hidden;
 }
 
@@ -84,7 +83,6 @@ li a:hover {
 
 .red-article div {
   width: 75%;
-  font-weight: bold;
 }
 
 .apps-section {

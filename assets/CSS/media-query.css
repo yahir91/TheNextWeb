@@ -36,10 +36,10 @@
     max-width: 49%;
     margin: auto;
   }
-/* 
+
   .margin {
     margin: auto !important;
-  } */
+  }
 
   .logo-and-date {
     display: none;
@@ -104,12 +104,13 @@
 
   .article-section article {
     max-width: 90%;
+    width: 90%;
     margin: 10px auto;
   }
 
-  /* .margin {
+   .margin {
     margin: 20px auto !important;
-  } */
+  }
 
   .bottom-nav div {
     display: none;
@@ -185,6 +186,7 @@
   .latest-news article {
     flex-direction: row;
     width: 90%;
+    background-color: orchid;
     height: 90px;
     margin: 0 auto;
     padding: 10px;

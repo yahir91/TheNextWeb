@@ -1,0 +1,272 @@
+
+*,
+*::after,
+*::before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: TheNextWeb;
+  src: url(../styles/OPTIChampionBold.otf);
+}
+
+@font-face {
+  font-family: PublicSans;
+  src: url(../styles/PublicSans[wght].ttf);
+}
+
+a {
+  text-decoration: none;
+}
+
+h3 {
+  color: #ebebeb;
+  font-family: TheNextWeb, Georgia, Times, 'Times New Roman', serif;
+}
+
+h5 {
+  display: none;
+}
+
+header p img {
+  width: 10px;
+}
+
+.tnw-logo {
+  display: none;
+}
+
+.options {
+  width: 50px;
+  display: none;
+}
+
+.top-nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: #131313;
+  height: 32px;
+  align-items: center;
+  font-family: PublicSans, Georgia, Times, 'Times New Roman', serif;
+}
+
+.top-nav a {
+  color: hsla(0, 0%, 100%, 0.6);
+  margin: 0 10px;
+  font-size: 14px;
+}
+
+.bottom-nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: #fefefe;
+  height: 50px;
+  align-items: center;
+  font-family: PublicSans, Georgia, Times, 'Times New Roman', serif;
+}
+
+.bottom-nav a {
+  text-decoration: none;
+  color: #aaa;
+  font-size: 14px;
+  margin: 0 10px;
+}
+
+.bottom-nav img {
+  border-left: 1px solid;
+  border-color: #ebebeb;
+  padding: 13px;
+}
+
+header {
+  position: sticky;
+  z-index: 2;
+  top: 0;
+  width: 100%;
+}
+
+header p {
+  background-color: #fd3;
+  margin: 0;
+  padding: 9px;
+  height: 35px;
+}
+
+.principal-container {
+  display: grid;
+  grid-template-columns: 6fr 3fr;
+  grid-auto-rows: minmax(100px auto);
+  grid-template-areas:
+    "one two"
+    "one three";
+  gap: 10px;
+  margin: 0 10px 40px 10px;
+  font-size: 50px;
+}
+
+.one {
+  grid-area: one;
+  background-image: url("../images/sadblockchain.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-size: 1em;
+  height: 550px;
+}
+
+.one img {
+  width: 400px;
+  margin-left: 20px;
+}
+
+.logo-and-date {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+  margin-right: 20px;
+}
+
+.one p {
+  font-family: TheNextWeb, Georgia, Times, 'Times New Roman', serif;
+  margin: 15px;
+}
+
+.one a {
+  margin: 15px;
+  text-decoration: none;
+  color: #fff;
+  font-size: 0.5em;
+}
+
+.two {
+  grid-area: two;
+  background-image: url("../images/Sprint_image.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  display: flex;
+  align-items: flex-end;
+}
+
+.three {
+  grid-area: three;
+  background-image: url("../images/coronavirus.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  display: flex;
+  align-items: flex-end;
+}
+
+.two p,
+.three p {
+  font-family: TheNextWeb, 'Times New Roman', Times, serif;
+  font-weight: 900;
+  font-size: 0.5em;
+  padding-bottom: 10px;
+  margin: 10px;
+  color: #ebebeb;
+}
+
+h2 {
+  max-width: 1152px;
+  width: 93%;
+  margin: 0 auto 20px;
+  padding-left: 20px;
+}
+
+/* FUNDING CONTAINER SECTION */
+.funding-container {
+  display: flex;
+  max-width: 1152px;
+  margin: 20px auto;
+  width: 95%;
+  align-items: center;
+  justify-content: space-between;
+  font-family: PublicSans, Georgia, Times, 'Times New Roman', serif;
+}
+
+.funding-container article {
+  display: flex;
+  flex-direction: column;
+  padding: 0 10px;
+  max-height: 270px;
+}
+
+.top-funding1 {
+  background-color: #f42;
+  height: 40px;
+  padding-left: 80px;
+  display: flex;
+  align-items: center;
+}
+
+.top-funding2 {
+  height: 60px;
+  background-color: #fbe7e5;
+  padding-left: 80px;
+}
+
+.price {
+  padding-top: 10px;
+  font-family: TheNextWeb, Georgia, Times, 'Times New Roman', serif;
+  font-size: 15px;
+}
+
+.middle-funding {
+  width: 100%;
+  border-bottom: 1px solid rgba(255, 68, 34, 0.25);
+  font-size: small;
+  background-color: #fffaf8;
+  display: flex;
+  height: 90px;
+  padding: 10px 0;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.middle-funding img {
+  width: 15px;
+  position: relative;
+  top: 2px;
+  margin: 0 10px;
+}
+
+.bottom-funding {
+  font-size: small;
+  background-color: #fffaf8;
+  color: #555;
+  padding: 10px;
+}
+
+.funding-img {
+  position: absolute;
+  width: 60px;
+  margin: 10px;
+}
+
+.funding-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1152px;
+  margin: 20px auto;
+}
+
+.funding-title-red {
+  color: #f42;
+  font-family: TheNextWeb, Georgia, Times, 'Times New Roman', serif;
+  font-weight: 900;
+  font-size: 20px;
+}
+
+.funding-links {
+  color: #f42;
+  font-family: TheNextWeb, Georgia, Times, 'Times New Roman', serif;
+}

@@ -1,0 +1,277 @@
+h4 {
+  font-size: 13px;
+  font-family: TheNextWeb, "Arvo", serif;
+  font-weight: 200;
+  padding-top: 10px;
+  margin: 0;
+}
+
+h2 a {
+  color: #f42;
+  font-family: TheNextWeb, Georgia, Times, "Times New Roman", serif;
+  font-weight: 900;
+  font-size: 22px;
+  margin-left: 0;
+}
+
+li a {
+  text-decoration: none;
+  color: #aaa;
+}
+
+h2 a:hover {
+  color: black;
+}
+
+ul {
+  margin-left: -5px;
+  list-style: none;
+}
+
+ul li {
+  margin-left: 30px;
+  border-bottom: 1px solid #eee;
+  padding: 10px 0;
+}
+
+ul li::before {
+  content: "\2022";
+  color: red;
+  display: inline;
+  margin-left: -20px;
+  padding-right: 10px;
+}
+
+li a:hover {
+  color: #555;
+}
+
+.article-section img {
+  display: inline-block;
+  width: 13px;
+}
+
+.article-section {
+  display: flex;
+  max-width: 1152px;
+  width: 95%;
+  margin: auto;
+  flex-flow: row wrap;
+  font-family: PublicSans, Georgia, Times, "Times New Roman", serif;
+  font-size: 13px;
+  line-height: 20px;
+}
+
+.article-section article {
+  margin: auto;
+  max-width: 32%;
+  overflow: hidden;
+}
+
+.margin {
+  margin-left: 0 !important;
+  margin-right: 10px !important;
+}
+
+.red-article {
+  min-height: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: red;
+  font-family: TheNextWeb, Georgia, Times, "Times New Roman", serif;
+  font-size: small;
+  background-color: #fff4f2;
+  padding-left: 10px;
+}
+
+.red-article div {
+  width: 75%;
+}
+
+.apps-section {
+  background-image: url("../images/family.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 270px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding-left: 10px;
+  color: white;
+}
+
+.netflix-link {
+  background-image: url("../images/Netflix-Featured_1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  min-width: 100px;
+  min-height: 100px;
+}
+
+.article-title {
+  font-weight: 600;
+  font-family: TheNextWeb, Georgia, Times, "Times New Roman", serif;
+  margin: 0;
+}
+
+span {
+  font-size: 12px;
+}
+
+.gear-section {
+  background-image: url("../images/appleglass.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 270px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 10px;
+  color: white;
+}
+
+.google-link {
+  background-image: url("../images/googletalk.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  min-width: 100px;
+  min-height: 100px;
+}
+
+.tech-section {
+  background-image: url("../images/elon_vader-368x276.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 270px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 10px;
+  color: white;
+}
+
+.computer-link {
+  background-image: url("../images/computereye.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  min-width: 100px;
+  min-height: 100px;
+}
+
+.creative-section {
+  background-image: url("../images/emoguy.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 270px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 10px;
+  color: white;
+}
+
+.number98-link {
+  background-image: url("../images/article-image1.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  min-width: 100px;
+  min-height: 100px;
+}
+
+.podium-section {
+  background-image: url("../images/meme.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 270px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 10px;
+  color: white;
+}
+
+.greta-link {
+  background-image: url("../images/greta.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  min-width: 100px;
+  min-height: 100px;
+}
+
+.insight-section {
+  background-image: url("../images/productivityimage.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 270px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 10px;
+  color: white;
+}
+
+.sadboy-link {
+  background-image: url("../images/boy.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  min-width: 100px;
+  min-height: 100px;
+}
+
+.launch-section {
+  background-image: url("../images/phones.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 270px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 10px;
+  color: white;
+}
+
+.JioMart-link {
+  background-image: url("../images/JioMart.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  min-width: 100px;
+  min-height: 100px;
+}
+
+.distract-section {
+  background-image: url("../images/community.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 270px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 10px;
+  color: white;
+}
+
+.twitch-link {
+  background-image: url("../images/twitch-e1491600114230.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  min-width: 100px;
+  min-height: 100px;
+}
